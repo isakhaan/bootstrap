@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+.container{
+    /* width: 100%; */
+    height: 100vh;
+}
+button:hover{
+    background-color: brown;
+    color: lemonchiffon;
+}
+.head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+}
+.line01{
+    width: 1px;
+    height: 50px;
+    background-color: black;
+    margin-left: 50px;
+}
+.line02{
+    width: 1px;
+    height: 600px;
+    background-color: black;
+    margin-left: 50px; 
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+ul li{
+    margin-left: 45px;
+}
+ul .li{
+    margin-left: 276px;
+}
+ul button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 1% 5%;
+}
+.line1{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.main{
+    display: flex;
+    align-items: center;
+    width: 1474px;
+}
+.left{
+    margin-left: 100px;
+    /* border: 1px solid; */
+    width: 700px;
+    height: 400px;
+}
+.left h5{
+    color: red;
+}
+.right{
+    width: 670px;
+}
+.right img{
+    width: 750px;
+    height: 600px;
+    margin-left: 100px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    border: 1px solid;
+    /* width: 100%; */
+    height: 100px;
+    text-transform: uppercase;
+}
+.foot .div1{
+    border: 1px solid;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+.div2{
+    /* border: 1px solid; */
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+    background-color: rgb(177, 0, 0);
+}
+.div2 ion-icon{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.d1{
+    display: flex;
+    align-items: center;
+    width: 52.3%;
+    /* border: 1px solid; */
+}
+.d2{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 48%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.d2 ion-icon{
+    color: red;
+    font-size: 25px;
+    margin-right: 25px;
+}
+.div3{
+    /* border: 1px solid; */
+    width: 33.3%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.div4{
+    /* border: 1px solid; */
+    width: 33.3%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.div5{
+    /* border: 1px solid; */
+    width: 33.3%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.foot2{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 250px;
+    padding-left: 50px;
+}
+.line0{
+    width: 1px;
+    height: 250px;
+    background-color: black;
+}
+.foot2 img{
+    margin-left: 140px;
+}
+.imgf{
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 600px;
+}
+.navleft{
+    height: 100%;
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 300px;
+}
+.navleft h5{
+    font-size: 20px;
+    color: red;
+}
+.navleft h2{
+    font-size: 50px;
+}
+.navleft button{
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+.navright{
+    height: 100%;
+    width: 50%;
+    padding-top: 100px;
+}
+.navright img{
+    width: 650px;
+    height: 500px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 600px;
+}
+.nav1 img{
+    margin-left: 100px;
+    width: 650px;
+    height: 500px;
+}
+.nav2{
+    margin-left: 50px;
+    width: 650px;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 90px;
+}
+.nav button{
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border-color: red;
+}
+.part1{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 500px;
+}
+.part1left{
+    height: 500px;
+    width: 750px;
+    padding-top: 190px;
+    padding-left: 70px;
+}
+.part1left input{
+    height: 40px;
+    width: 230px;
+}
+.in2{
+    margin-left: 15px;
+}
+button{
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    color: white;
+    background-color: brown;
+    border: none;
+}
+.part1right img{
+    margin-left: 165px;
+    width: 650px;
+    height: 500px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 500px;
+}
+.part2left{
+    margin-left: 50px;
+    height: 500px;
+    width: 750px;
+    padding-top: 190px;
+    padding-left: 170px;
+}
+.part2right img{
+    width: 700px;
+    height: 500px;
+}
+.part2left button{
+    margin-top: 50px;
+    border: 2px solid;
+    border-color: red;
+    background-color: white;
+    color: black;
+}
+.part3{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 500px;
+}
+.part3right{
+    margin-left: 50px;
+    height: 500px;
+    width: 750px;
+    padding-top: 220px;
+    padding-left: 20px;
+}
+.part3left img{
+    width: 650px;
+    height: 500px;
+    margin-left: 165px;
+}
+.part3right input{
+    height: 40px;
+    width: 230px;
+    margin-left: 20px;
+}
+.part4{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 600px;
+}
+.part4right img{
+    width: 550px;
+    height: 500px;
+}
+.part4left{
+    margin-left: 170px;
+    height: 500px;
+    width: 700px;
+    padding-top: 100px;
+    padding-left: 0px;
+}
+.part4left h4{
+    color: red;
+}
+.part5{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 700px;
+}
+.part5 form{
+    /* border: 1px solid; */
+    width: 700px;
+    height: 400px;
+    padding-top: 225px;
+    margin-left: 50px;
+}
+.part5left input{
+    height: 40px;
+    width: 230px;
+}
+.part5right{
+    width: 700px;
+    height: 700px;
+    border: 1px solid;
+}
+.part5right .img00{
+    width: 700px;
+    height: 700px;
+    margin: 0;
+}
+.part6{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 300px;
+}
+.part6right{
+    width: 400px;
+    height: 330px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.part6left img{
+    width: 800px;
+    margin-left: 50px;
+}
+.part7{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 300px;
+}
+.part7 .p1{
+    margin-left: 100px;
+}
+.part7 input{
+    height: 40px;
+    width: 250px;
+    margin-left: 30px;
+}
+.part7 .inp1{
+    margin-left: 200px;
+}
+.part8 main{
+    width: 1690px;
+    height: 600px;
+    background-image: url(/Imithon.img/Блок\ 12.png);
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    height: 300px;
+    /* position: absolute; */
+    width: 1650px;
+}
+ul a{
+   color: rgb(161, 160, 157);  
+}
+.li1{
+    text-transform: uppercase;
+}
+.li2{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.li3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.li4{
+    text-transform: uppercase;
+    /* margin-bottom: 15px; */
+}
+.icons{
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 110px;
+}
+.icn1{
+    color: black;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+}
+.icn2{
+    color: black;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+}
+.icn3{
+    color: black;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+}
+@media only screen and (max-width:850px){
+    .head{
+        display: block;
+    }
+}
